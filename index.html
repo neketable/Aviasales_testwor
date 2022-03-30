@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aviasales</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="app.js" type="text/javascript"></script>
+
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <img src="./img/logo.svg" alt="Aviasales">
+    </header>
+    <main class="main">
+        <div class="sort_list">
+            <p class="sort_title">
+                количество пересадок
+            </p>
+            <form>
+                <fieldset disabled>
+                    <label class="sort_item">
+                        <input type="checkbox" class="checkbox hidden" name="all">
+                        <span class="new_checkbox"></span>
+                        Все
+                    </label>
+                    <label class="sort_item">
+                        <input type="checkbox" class="checkbox hidden" name="zero">
+                        <span class="new_checkbox"></span>
+                        Без пересадок
+                    </label>
+                    <label class="sort_item">
+                        <input type="checkbox" class="checkbox hidden" name="one">
+                        <span class="new_checkbox"></span>
+                        1 пересадка
+                    </label>
+                    <label class="sort_item">
+                        <input type="checkbox" class="checkbox hidden" name="two">
+                        <span class="new_checkbox"></span>
+                        2 пересадки
+                    </label>
+                    <label class="sort_item">
+                        <input type="checkbox" class="checkbox hidden" name="three">
+                        <span class="new_checkbox"></span>
+                        3 пересадки
+                    </label>
+                </fieldset>
+            </form>
+        </div>
+        <div class="tabs">
+            <div class="tabs_el tab1 tab_active">Самый дешевый</div>
+            <div class="tabs_el tab2">Самый быстрый</div>
+        </div>
+        <div class="tickets visible">
+            <div class="ticket">
+                <div class="ticket_header">
+                    <div class="ticket_price">13 400 Р</div>
+                    <div class="ticket_logo">
+                        <img src="./img/s7_logo.svg" class="t_logo">
+                    </div>
+                </div>
+                <div class="ticket_wrapper">
+                    <div class="ticket_items">
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style path1">MOW - HKT</p>
+                            <p class="ticket_items_text_time time1">10:45 - 08:00</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style">в пути</p>
+                            <p class="ticket_items_text_time duration1">21ч 15м</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style sort_tag1">2 пересадки</p>
+                            <p class="ticket_items_text_time countries1">HKG, JNB</p>
+                        </div>
+                    </div>
+                    <div class="ticket_items">
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style path2">MOW - HKT</p>
+                            <p class="ticket_items_text_time time2">10:45 - 08:00</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style">в пути</p>
+                            <p class="ticket_items_text_time duration2">13ч 30м</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style sort_tag2">1 пересадка</p>
+                            <p class="ticket_items_text_time countries2">HKG</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket">
+                <div class="ticket_header">
+                    <div class="ticket_price">13 400 Р</div>
+                    <div class="ticket_logo">
+                        <img src="./img/s7_logo.svg" class="t_logo">
+                    </div>
+                </div>
+                <div class="ticket_wrapper">
+                    <div class="ticket_items">
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style path1">MOW - HKT</p>
+                            <p class="ticket_items_text_time time1">10:45 - 08:00</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style">в пути</p>
+                            <p class="ticket_items_text_time duration1">21ч 15м</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style sort_tag1">2 пересадки</p>
+                            <p class="ticket_items_text_time countries1">HKG, JNB</p>
+                        </div>
+                    </div>
+                    <div class="ticket_items">
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style path2">MOW - HKT</p>
+                            <p class="ticket_items_text_time time2">10:45 - 08:00</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style">в пути</p>
+                            <p class="ticket_items_text_time duration2">13ч 30м</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style sort_tag2">1 пересадка</p>
+                            <p class="ticket_items_text_time countries2">HKG</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket">
+                <div class="ticket_header">
+                    <div class="ticket_price">13 400 Р</div>
+                    <div class="ticket_logo">
+                        <img src="./img/s7_logo.svg" class="t_logo">
+                    </div>
+                </div>
+                <div class="ticket_wrapper">
+                    <div class="ticket_items">
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style path1">MOW - HKT</p>
+                            <p class="ticket_items_text_time time1">10:45 - 08:00</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style">в пути</p>
+                            <p class="ticket_items_text_time duration1">21ч 15м</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style sort_tag1">2 пересадки</p>
+                            <p class="ticket_items_text_time countries1">HKG, JNB</p>
+                        </div>
+                    </div>
+                    <div class="ticket_items">
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style path2">MOW - HKT</p>
+                            <p class="ticket_items_text_time time2">10:45 - 08:00</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style">в пути</p>
+                            <p class="ticket_items_text_time duration2">13ч 30м</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style sort_tag2">1 пересадка</p>
+                            <p class="ticket_items_text_time countries2">HKG</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket">
+                <div class="ticket_header">
+                    <div class="ticket_price">13 400 Р</div>
+                    <div class="ticket_logo">
+                        <img src="./img/s7_logo.svg" class="t_logo">
+                    </div>
+                </div>
+                <div class="ticket_wrapper">
+                    <div class="ticket_items">
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style path1">MOW - HKT</p>
+                            <p class="ticket_items_text_time time1">10:45 - 08:00</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style">в пути</p>
+                            <p class="ticket_items_text_time duration1">21ч 15м</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style sort_tag1">2 пересадки</p>
+                            <p class="ticket_items_text_time countries1">HKG, JNB</p>
+                        </div>
+                    </div>
+                    <div class="ticket_items">
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style path2">MOW - HKT</p>
+                            <p class="ticket_items_text_time time2">10:45 - 08:00</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style">в пути</p>
+                            <p class="ticket_items_text_time duration2">13ч 30м</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style sort_tag2">1 пересадка</p>
+                            <p class="ticket_items_text_time countries2">HKG</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket">
+                <div class="ticket_header">
+                    <div class="ticket_price">13 400 Р</div>
+                    <div class="ticket_logo">
+                        <img src="./img/s7_logo.svg" class="t_logo">
+                    </div>
+                </div>
+                <div class="ticket_wrapper">
+                    <div class="ticket_items">
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style path1">MOW - HKT</p>
+                            <p class="ticket_items_text_time time1">10:45 - 08:00</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style">в пути</p>
+                            <p class="ticket_items_text_time duration1">21ч 15м</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style sort_tag1">2 пересадки</p>
+                            <p class="ticket_items_text_time countries1">HKG, JNB</p>
+                        </div>
+                    </div>
+                    <div class="ticket_items">
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style path2">MOW - HKT</p>
+                            <p class="ticket_items_text_time time2">10:45 - 08:00</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style">в пути</p>
+                            <p class="ticket_items_text_time duration2">13ч 30м</p>
+                        </div>
+                        <div class="ticket_items_text">
+                            <p class="ticket_items_text_style sort_tag2">1 пересадка</p>
+                            <p class="ticket_items_text_time countries2">HKG</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>
